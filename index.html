@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>My To-Do List</h1>
+  <ul id="taskList">
+    <li>
+      Finish Sales Role Play
+      <button onclick="updateStatus(this, 'Started')">Started</button>
+      <button onclick="updateStatus(this, '50% Done')">50% done</button>
+      <button onclick="updateStatus(this, '100% Done')">100% done</button>
+      <button onclick="deleteTask(this)">Delete</button>
+    </li>
+  </ul>
 
-    <h1>Hello, world!</h1>
-  <p>My first commit</p>
-  <p>Let's list planets:</p>
-  <li>Mercury  </li>
-<li>Mercury</li>
-<li>Venus</li>
-<li>Earth</li>
-<li>Mars</li>
-<li>Jupiter</li>
-<li>Saturn</li>
-<li>Uranus</li>
-<li>Neptune</li>
-  
-    
+  <script src="todo.js"></script>
 </body>
 </html>
