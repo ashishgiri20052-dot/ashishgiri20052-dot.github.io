@@ -1,1 +1,354 @@
+/* Apply background image with fallback color */
+body{
+    background-color: rgb(201, 138, 98);
+    background-image: url('bgimage.jpg');
+    background-size: cover;        /* Cover full screen */
+    background-repeat: no-repeat;  /* No repeating */
+    background-position: center;   /* Center the image */
+}
 
+/* Navigation Bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    height: 65px;
+    align-items: center;
+    background-color: black;
+    font-size: 23px;
+
+}
+
+.nav-left{
+   color: aliceblue;
+   font-weight: bold;
+   font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0 0 15px #000;
+   
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-shadow: 0 0 10px pink;
+  
+}
+nav a:hover {
+    background-color: aliceblue;
+    color: gray;
+    border-radius: 5px;
+}
+img.ppp{
+    width: 200px;
+    height: 200px;
+    float: center;
+    margin-left: 500px;
+    border-radius: 70%; 
+    object-fit: cover;
+    margin-top: -300px;
+   
+}
+
+
+img.pp{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 70%; 
+    object-fit: cover;
+    margin-top: 20px;
+   
+   
+}
+
+img.pp:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+details {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+
+  summary {
+    font-size: 18px;
+    color: #007bff;
+    cursor: pointer;
+    outline: none;
+  }
+
+  input, textarea, button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .ccoonn{
+    font-family: Arial;
+    color: rgb(201, 138, 98);
+    text-align: center;
+    margin-left: 500px;
+  }
+
+.p1{
+    font-size: 18px;
+    color: black;
+    font-family: Arial;
+    text-shadow: 0 0 10px gray;
+    text-align: center;
+    margin-right: 225px;
+}
+
+.btn{
+    font-size: 14px;
+    color: black;
+    font-family: Arial;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+  
+}
+
+
+/* About Page Layout */
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+}
+
+/* Common box styling */
+.about-box {
+    flex: 1 1 45%;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    min-width: 280px;
+}
+
+/* Individual box colors */
+.box1 { background-color: rgb(201, 138, 98); }  
+.box2 { background-color: rgb(201, 138, 98); } 
+.box3 { background-color: rgb(201, 138, 98); }  
+.box4 { background-color: rgb(201, 138, 98); }  
+
+/* Hover animation */
+.about-box:hover {
+    transform: scale(1.00);
+}
+
+/* Text styling */
+.about-box p {
+    font-size: 20px;
+    color: black;
+    line-height: 1.6;
+    font-family: Arial;
+}
+
+   
+
+.head{
+    font-size: 30px;
+    font-weight: bold;
+}
+.introoo{
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    animation: fadeIn 1.2s ease-in-out both;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 250px;
+    margin-right: 25px;
+    
+}
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black; /* optional background */
+    text-align: center;
+    padding: 10px 0; /* optional padding */
+}
+
+.footer-container {
+    width: 100%;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 12px;
+    color: aliceblue;
+    text-shadow: 0 0 10px pink;
+}
+/* keyframes  */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+.rightside2{
+    width: 60%;
+    text-align: center;
+    background-color: gray;
+    padding: 30px;
+    font-size: 23px;
+    font-family: Arial;
+    color: aliceblue;
+    height: 170px;
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+   
+}
+.right-column2 {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 90%;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+.call{
+    color: black;
+    font-family: Arial;
+    font-size: 55px;
+    text-align: center;        
+    margin: 0 auto;            
+    display: block;
+    
+}
+.contactme{
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+
+.contactme{
+  text-align: center;
+    
+}
+
+.social-links {
+    margin-top: 35px;
+}
+
+.social-links a {
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    margin: 0 25px;
+    transition: color 0.3s ease;
+    text-shadow: 0 0 10px pink;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+
+
+    nav {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .nav-left {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+    }
+
+    img.pp {
+        width: 200px;
+        height: 200px;
+        float: none;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .p1 {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about-box {
+        width: 100%;
+    }
+
+    .call {
+        font-size: 27px;
+        padding: 0 10px;
+        
+    }
+
+    .social-links a {
+        font-size: 20px;
+        margin: 0 5px;
+    }
+}
