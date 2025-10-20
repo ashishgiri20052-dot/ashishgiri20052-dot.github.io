@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>To-Do List</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>My To-Do List</h1>
-  <ul id="taskList">
-    <li>
-      Finish Sales Role Play
-      <button onclick="updateStatus(this, 'Started')">Started</button>
-      <button onclick="updateStatus(this, '50% Done')">50% done</button>
-      <button onclick="updateStatus(this, '100% Done')">100% done</button>
-      <button onclick="deleteTask(this)">Delete</button>
-    </li>
-  </ul>
 
-  <script src="todo.js"></script>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-left">Portfolio</div>
+        <!-- Navigation Links -->
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>   
+    </nav>
+    <!-- Profile Picture -->
+    <img class="pp" src="me.jpg" alt="My profile picture">
+    
+        
+       <!-- Introduction text section -->
+         <div class="left-container">
+         <h1 class="introoo">Ashish Giri</h1>
+        <p class="p1">IT-BBA student at Haaga-Helia University of Applied Sciences, Helsinki, Finland.</p>
+         </div>  
+         <a href="cv.pdf" class="btn">Resume Here</a>
+         <img class="ppp" src="logo.png" alt="Logo">
+        <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p class="footer-text">© 2025 Ashish Giri. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
